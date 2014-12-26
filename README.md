@@ -20,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```irb
+require 'double_or_nothing'
+
+alice = DoubleOrNothing::Person.new("2000-01-01")
+bob = DoubleOrNothing::Person.new("1985-01-01")
+
+DoubleOrNothing::Calculator.new(alice, bob).call
+#=> #<Date: 2014-12-31 ((2457023j,0s,0n),+0s,2299161j)>
+
+DoubleOrNothing::Calculator.new(alice, bob).difference
+#=> (5478/1)
+```
 
 ## Contributing
 
