@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-```irb
+```ruby
 require 'double_or_nothing'
 
 alice = DoubleOrNothing::Person.new("2000-01-01")
