@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'double_or_nothing/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "double-or-nothing"
+  spec.name          = "double_or_nothing"
   spec.version       = DoubleOrNothing::VERSION
   spec.authors       = ["Philip Arndt"]
   spec.email         = ["p@arndt.io"]
